@@ -1,0 +1,124 @@
+body {
+	background-image: url("images/background.jpg");
+	background-repeat: repeat;
+	color: #333333
+	font-family: 'Source sans Pro', serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+
+h1  {
+	background-color: #F6C89F
+	color: #222831;
+    font-family: 'Cabin', serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+h2 {
+	color:black;
+	font-family: 'Trade Winds', serif;
+	font-weight: bold;
+	font-size: 35px;
+}	
+p { 
+	text-justify: center;
+}
+
+a { 
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: red;
+}
+
+div {
+	margin:50px;
+	border:2 px solid black;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    text-align: center;
+
+	}
+
+.btn-blue {
+	text-decoration: none;
+	background-color: black;
+	color:white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	margin: 4px;
+	}
+
+
+#logo {
+	width: 170px;
+	border-radius: 90%
+	}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	}
+
+@media (max-width: 960px) {
+	.container {
+		width: 800px;
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 400px;
+	}
+}
+
+#introduction {
+	background-image: url("images/background.jpg");
+	background: white;
+	padding: 20px;
+	border: 2px solid border;
+	margin: 10px
+	margin-bottom:80px;
+	border-radius: 6px;
+	}
+.card-white {
+	border-radius: 6px;
+	padding: 20px;
+	background: white;
+	box-shadow: 0px 10px 30px rgba(0,0,0,1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.list-inline  {
+	list-style: none;
+	padding-left: 0px;
+	font-size: 100px;
+	color: rgb(230, 230, 230);
+	letter-spacing: 10px;
+}
+
+#introduction p {
+	margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
